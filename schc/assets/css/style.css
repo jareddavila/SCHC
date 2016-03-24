@@ -1,0 +1,367 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+  h1 {}
+
+  h2 {}
+
+  h3 {}
+
+  h4 {}
+
+  h5 {}
+
+  p {
+    
+    display: block;
+  }
+
+/* ===============
+ Team Photos 
+
+ =================*/
+
+.column1, .column2, .column3 {
+  width:400px;
+  float: left;
+  margin: 10px;
+  text-indent: 80px;
+}
+
+.schc-logo, .reghours, .walkhours {
+  width:400px;
+  float: left;
+  margin: 10px;
+  list-style: none;
+
+}
+
+ul, li{
+    list-style:none;
+    list-style-type:none;
+}
+
+/* =================
+
+Font Stlyes
+
+===================*/
+/* =================
+
+Navigation Classes
+
+===================*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ff0000;
+    color: white;
+    padding: 16px;
+    margin: 0 20px 0 16px;
+    font-size: 18px;
+    border: none;
+    border-color: #00ff;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ff0000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* =================
+
+Body Stlyes
+
+===================*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.main-header {
+  margin-top: auto;
+  text-align: center;
+  padding: 2em 0;
+  background: #00ff;
+}
+
+
+
+.logo-wrap {
+  width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+.site-logo img {
+  display:block;
+  width: 300px;
+  align-self:center;
+
+}
+
+.park img {
+ display: block;
+}
+
+.profile-wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.profile-photo {
+display: block;
+margin: 50px 50px;
+max-width: 200px;
+border-radius: 50%;
+}
+
+
+
+
+.greyBox{
+  background: #f5f5f5;
+  border:10px solid #ccc;
+  padding: 2.5%;
+}
+
+.standardsTable{
+  width:100%;
+ 
+}
+
+
+.standardsTable td{
+  border:1px solid #ccc;
+  padding:10px;
+}
+
+
+.content-box {
+  border: 10px Solid #32673f;
+  columns: 3;
+  
+}
+
+
+
+
+
+/* =================
+
+Fee Form
+
+===================*/
+
+form {
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #000;
+  background-color: #ff0000;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #0000e5;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+/* =================
+
+Footer
+
+===================*/
+.main-footer  {
+  background: #fff;
+  font-family: "lato", "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+}
+  
+  
+
+
+
+
+.schc-logo img {
+  display:block;
+  width: 150px;
+}
+
+/* =================
+
+Media Queries
+
+===================*/
+
+@media (max-width: 769px) { 
+
+  .main-header {
+    height: 200px;
+    justify-content: flex-end;
+  }
+
+  .site-logo {
+    width: 140px;
+  }
+
+  .main-nav {
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-nav a {
+    border-bottom-color: transparent;
+  }
+
+
+
+}
+
+@media (min-width: 1025px) {
+  
+  .main-header {
+    flex-direction: row; 
+  }
+
+  .site-logo {
+    
+  }
+
+  .main-nav {
+    margin-top: 0:;
+    align-self: center;
+  }
+
+  .main-nav li {
+    margin-left: .65em;
+    margin-right: .65em;
+  }
+}
